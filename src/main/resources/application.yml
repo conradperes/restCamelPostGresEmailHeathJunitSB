@@ -50,17 +50,19 @@ spring:
   mail:
     host: smtp.gmail.com
     port: 587
-    username: xyz@gmail.com
-    password:
+    username: alertsdilip@gmail.com
+    password: alertsdilip123
     properties.mail.smtp.auth:  true
     properties.mail.smtp.starttls.enable: true
 
-mailto: xyz@gmail.com
-mailFrom: xyz@gmail.com
+mailto: alertsdilip@gmail.com
+mailFrom: alertsdilip@gmail.com
 message:   Hello from DEV Profile
-fromRoute: timer:health?period=10s
+fromRoute: timer:restRoute?period=10s
 toRoute:  log:?level=INFO&showBody=true
 healthRoute: timer:health?period=10s
+dbNode: jdbc:dataSource
+selectNode: sql:select * from country where country_code = :#countryId?dataSource=#dataSource
 
 ---
 
