@@ -1,3 +1,5 @@
+server:
+  port: 8082
 spring:
   profiles:
     active: dev
@@ -23,20 +25,22 @@ spring:
   mail:
     host: smtp.gmail.com
     port: 587
-    username: xyz@gmail.com
-    password:
+    username: integrationmachinelearning@gmail.com
+    password: jqpuqvvlnkducutz
     properties.mail.smtp.auth:  true
     properties.mail.smtp.starttls.enable: true
 
 mail.smtp.starttls.enable: true
 
-mailto: xyz@gmail.com
-mailFrom: xyz@gmail.com
+mailto: integrationmachinelearning@gmail.com
+mailFrom: integrationmachinelearning@gmail.com
 
 message:   Hello from MOCK Profile
 fromRoute: direct:input
 toRoute: mock:output
 healthRoute: direct:health
+dbNode: mock:output1
+selectNode: mock:output2
 
 ---
 
@@ -50,16 +54,16 @@ spring:
   mail:
     host: smtp.gmail.com
     port: 587
-    username: alertsdilip@gmail.com
-    password: alertsdilip123
+    username: integrationmachinelearning@gmail.com
+    password: jqpuqvvlnkducutz
     properties.mail.smtp.auth:  true
     properties.mail.smtp.starttls.enable: true
 
-mailto: alertsdilip@gmail.com
-mailFrom: alertsdilip@gmail.com
+mailto: integrationmachinelearning@gmail.com
+mailFrom: integrationmachinelearning@gmail.com
 message:   Hello from DEV Profile
 fromRoute: timer:restRoute?period=10s
-toRoute:  log:?level=INFO&showBody=true
+toRoute:  http://localhost:8081/country
 healthRoute: timer:health?period=10s
 dbNode: jdbc:dataSource
 selectNode: sql:select * from country where country_code = :#countryId?dataSource=#dataSource
@@ -76,18 +80,20 @@ spring:
   mail:
     host: smtp.gmail.com
     port: 587
-    username: xyz@gmail.com
-    password:
+    username: integrationmachinelearning@gmail.com
+    password: jqpuqvvlnkducutz
     properties.mail.smtp.auth:  true
     properties.mail.smtp.starttls.enable: true
 
-mailto: xyz@gmail.com
-mailFrom: xyz@gmail.com
-message:    Hello from STAGE Profile
-
-fromRoute: timer:health?period=10s
-toRoute:  log:?level=INFO&showBody=true
+mailto: integrationmachinelearning@gmail.com
+mailFrom: integrationmachinelearning@gmail.com
+message:   Hello from DEV Profile
+fromRoute: timer:restRoute?period=10s
+toRoute:  http://localhost:8081/country
 healthRoute: timer:health?period=10s
+dbNode: jdbc:dataSource
+selectNode: sql:select * from country where country_code = :#countryId?dataSource=#dataSource
+
 
 
 ---
@@ -102,19 +108,18 @@ spring:
   mail:
     host: smtp.gmail.com
     port: 587
-    username: xyz@gmail.com
-    password:
+    username: integrationmachinelearning@gmail.com
+    password: jqpuqvvlnkducutz
     properties.mail.smtp.auth:  true
     properties.mail.smtp.starttls.enable: true
 
-mailto: xyz@gmail.com
-mailFrom: xyz@gmail.com
-
-message:    Hello from PROD Profile
-
-fromRoute: timer:health?period=10s
-toRoute:  log:?level=INFO&showBody=true
+mailto: integrationmachinelearning@gmail.com
+mailFrom: integrationmachinelearning@gmail.com
+message:   Hello from DEV Profile
+fromRoute: timer:restRoute?period=10s
+toRoute:  http://localhost:8081/country
 healthRoute: timer:health?period=10s
-
+dbNode: jdbc:dataSource
+selectNode: sql:select * from country where country_code = :#countryId?dataSource=#dataSource
 
 ---

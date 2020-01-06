@@ -29,7 +29,7 @@ public class HealthCheckRoute extends RouteBuilder{
             from("{{healthRoute}}").routeId("healthRoute")
                 .choice() // Content based EIP
                 .when(isNotDev) // not dev check
-                        .pollEnrich("http://localhost:8080/health")
+                        .pollEnrich("http://localhost:8082/health")
                     .end()
                 .process(healthCheckProcessor)
                 .choice()

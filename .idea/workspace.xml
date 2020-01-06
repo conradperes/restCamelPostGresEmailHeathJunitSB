@@ -24,15 +24,25 @@
     <option name="showStatusBarWidget" value="true" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c4efdf36-0777-4718-8643-81a412fa1093" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/learncamel/domain/Country.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/learncamel/processor/CountrySelectProcessor.java" afterDir="false" />
+    <list default="true" id="c4efdf36-0777-4718-8643-81a412fa1093" name="Default" comment="Correcting issues">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/camellog.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/camellog.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/learncamel/CamelSpringBoilerPlateApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/learncamel/RestCamelApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/learncamel/routes/SimpleCamelRoute.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/learncamel/routes/RestCamelRoute.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rest-learncamel-spring-boot.iml" beforeDir="false" afterPath="$PROJECT_DIR$/rest-learncamel-spring-boot.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/learncamel/routes/HealthCheckRoute.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/learncamel/routes/HealthCheckRoute.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/learncamel/routes/RestCamelRoute.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/learncamel/routes/RestCamelRoute.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/learncamel/routes/SimpleCamelRouteMockTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/learncamel/routes/SimpleCamelRouteMockTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/learncamel/routes/SimpleCamelRouteTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/learncamel/routes/CountryRestRouteTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/learncamel/routes/CountryRestRouteTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/learncamel/routes/CountryRestRouteTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/learncamel/routes/SimpleCamelRouteMockTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/learncamel/routes/HealthCheckRoute.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/learncamel/routes/HealthCheckRoute.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/learncamel/routes/RestCamelRoute.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/learncamel/routes/RestCamelRoute.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/rest-learncamel-spring-boot-0.0.1-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/rest-learncamel-spring-boot-0.0.1-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/rest-learncamel-spring-boot-0.0.1-SNAPSHOT.jar.original" beforeDir="false" afterPath="$PROJECT_DIR$/target/rest-learncamel-spring-boot-0.0.1-SNAPSHOT.jar.original" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/learncamel/routes/CountryRestRouteTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/learncamel/routes/CountryRestRouteTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/learncamel/routes/SimpleCamelRouteMockTest.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,14 +62,6 @@
       </list>
     </option>
   </component>
-  <component name="FindInProjectRecents">
-    <findStrings>
-      <find>The REST COUNTRIES api response is</find>
-      <find>fromRoute</find>
-      <find>selected Country code is</find>
-      <find>Unmarshaled record is</find>
-    </findStrings>
-  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
@@ -69,9 +71,6 @@
         <option name="importAutomatically" value="true" />
       </MavenImportingSettings>
     </option>
-  </component>
-  <component name="MavenRunner">
-    <option name="skipTests" value="true" />
   </component>
   <component name="ProjectCodeStyleSettingsMigration">
     <option name="version" value="1" />
@@ -94,7 +93,7 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
   </component>
-  <component name="RunManager" selected="JUnit.CountryRestRouteTest.persistCountry">
+  <component name="RunManager" selected="Application.RestCamelApplication">
     <configuration default="true" type="AndroidTestRunConfigurationType" factoryName="Android Tests">
       <module name="" />
       <option name="TESTING_TYPE" value="0" />
@@ -258,8 +257,8 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.CountryRestRouteTest.persistCountry" />
         <item itemvalue="Application.RestCamelApplication" />
+        <item itemvalue="JUnit.CountryRestRouteTest.persistCountry" />
       </list>
     </recent_temporary>
   </component>
@@ -286,30 +285,15 @@
       <option name="presentableId" value="Default" />
       <updated>1519322159540</updated>
     </task>
+    <task id="LOCAL-00001" summary="Correcting issues">
+      <created>1578164141778</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1578164141778</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
-  </component>
-  <component name="TestHistory">
-    <history-entry file="CountryRestRouteTest_persistCountry - 2018.02.22 at 13h 33m 14s.xml">
-      <configuration name="CountryRestRouteTest.persistCountry" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="CountryRestRouteTest_persistCountry - 2018.02.22 at 13h 46m 45s.xml">
-      <configuration name="CountryRestRouteTest.persistCountry" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="CountryRestRouteTest_persistCountry - 2018.02.22 at 13h 47m 38s.xml">
-      <configuration name="CountryRestRouteTest.persistCountry" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="CountryRestRouteTest_persistCountry - 2018.02.22 at 13h 48m 30s.xml">
-      <configuration name="CountryRestRouteTest.persistCountry" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="CountryRestRouteTest_persistCountry - 2018.02.22 at 13h 54m 08s.xml">
-      <configuration name="CountryRestRouteTest.persistCountry" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="CountryRestRouteTest_persistCountry - 2018.02.22 at 13h 57m 36s.xml">
-      <configuration name="CountryRestRouteTest.persistCountry" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="CountryRestRouteTest_persistCountry - 2018.02.22 at 13h 58m 05s.xml">
-      <configuration name="CountryRestRouteTest.persistCountry" configurationId="JUnit" />
-    </history-entry>
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -320,27 +304,44 @@
       <is-autoscroll-to-source value="true" />
     </todo-panel>
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Correcting issues" />
+    <option name="LAST_COMMIT_MESSAGE" value="Correcting issues" />
+  </component>
   <component name="WindowStateProjectService">
-    <state width="1398" height="424" key="GridCell.Tab.0.bottom" timestamp="1578163974488">
+    <state x="1697" y="52" key="CommitChangelistDialog2" timestamp="1578324614498">
       <screen x="1440" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="424" key="GridCell.Tab.0.bottom/1440.0.1440.900/0.0.1440.900@1440.0.1440.900" timestamp="1578163974488" />
-    <state width="1398" height="424" key="GridCell.Tab.0.center" timestamp="1578163974485">
+    <state x="1697" y="52" key="CommitChangelistDialog2/1440.0.1440.900/0.0.1440.900@1440.0.1440.900" timestamp="1578324614498" />
+    <state width="1398" height="645" key="GridCell.Tab.0.bottom" timestamp="1578324321569">
       <screen x="1440" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="424" key="GridCell.Tab.0.center/1440.0.1440.900/0.0.1440.900@1440.0.1440.900" timestamp="1578163974485" />
-    <state width="1398" height="424" key="GridCell.Tab.0.left" timestamp="1578163974483">
+    <state width="1398" height="645" key="GridCell.Tab.0.bottom/1440.0.1440.900/0.0.1440.900@1440.0.1440.900" timestamp="1578324321569" />
+    <state width="1398" height="609" key="GridCell.Tab.0.bottom/1440.0.1440.900/0.23.1440.877@1440.0.1440.900" timestamp="1578241934913" />
+    <state width="1398" height="645" key="GridCell.Tab.0.center" timestamp="1578324321564">
       <screen x="1440" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="424" key="GridCell.Tab.0.left/1440.0.1440.900/0.0.1440.900@1440.0.1440.900" timestamp="1578163974483" />
-    <state width="1398" height="424" key="GridCell.Tab.0.right" timestamp="1578163974487">
+    <state width="1398" height="645" key="GridCell.Tab.0.center/1440.0.1440.900/0.0.1440.900@1440.0.1440.900" timestamp="1578324321564" />
+    <state width="1398" height="609" key="GridCell.Tab.0.center/1440.0.1440.900/0.23.1440.877@1440.0.1440.900" timestamp="1578241934910" />
+    <state width="1398" height="645" key="GridCell.Tab.0.left" timestamp="1578324321563">
       <screen x="1440" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="424" key="GridCell.Tab.0.right/1440.0.1440.900/0.0.1440.900@1440.0.1440.900" timestamp="1578163974487" />
-    <state x="1825" y="196" width="670" height="676" key="search.everywhere.popup" timestamp="1578163246237">
+    <state width="1398" height="645" key="GridCell.Tab.0.left/1440.0.1440.900/0.0.1440.900@1440.0.1440.900" timestamp="1578324321563" />
+    <state width="1398" height="609" key="GridCell.Tab.0.left/1440.0.1440.900/0.23.1440.877@1440.0.1440.900" timestamp="1578241934906" />
+    <state width="1398" height="645" key="GridCell.Tab.0.right" timestamp="1578324321567">
+      <screen x="1440" y="0" width="1440" height="900" />
+    </state>
+    <state width="1398" height="645" key="GridCell.Tab.0.right/1440.0.1440.900/0.0.1440.900@1440.0.1440.900" timestamp="1578324321567" />
+    <state width="1398" height="609" key="GridCell.Tab.0.right/1440.0.1440.900/0.23.1440.877@1440.0.1440.900" timestamp="1578241934912" />
+    <state x="1760" y="190" key="Vcs.Push.Dialog.v2" timestamp="1578164149735">
+      <screen x="1440" y="0" width="1440" height="900" />
+    </state>
+    <state x="1760" y="190" key="Vcs.Push.Dialog.v2/1440.0.1440.900/0.0.1440.900@1440.0.1440.900" timestamp="1578164149735" />
+    <state x="1825" y="196" width="670" height="676" key="search.everywhere.popup" timestamp="1578241081693">
       <screen x="1440" y="0" width="1440" height="900" />
     </state>
     <state x="1825" y="196" width="670" height="676" key="search.everywhere.popup/1440.0.1440.900/0.0.1440.900@1440.0.1440.900" timestamp="1578163246237" />
+    <state x="1825" y="196" width="670" height="676" key="search.everywhere.popup/1440.0.1440.900/0.23.1440.877@1440.0.1440.900" timestamp="1578241081693" />
   </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
