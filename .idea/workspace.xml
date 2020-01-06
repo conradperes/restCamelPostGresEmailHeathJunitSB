@@ -24,25 +24,10 @@
     <option name="showStatusBarWidget" value="true" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c4efdf36-0777-4718-8643-81a412fa1093" name="Default" comment="Correcting issues">
+    <list default="true" id="c4efdf36-0777-4718-8643-81a412fa1093" name="Default" comment="Correcting issues of Java 9">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/logs/camellog.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/camellog.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rest-learncamel-spring-boot.iml" beforeDir="false" afterPath="$PROJECT_DIR$/rest-learncamel-spring-boot.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/learncamel/routes/HealthCheckRoute.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/learncamel/routes/HealthCheckRoute.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/learncamel/routes/RestCamelRoute.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/learncamel/routes/RestCamelRoute.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/learncamel/routes/CountryRestRouteTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/learncamel/routes/CountryRestRouteTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/learncamel/routes/SimpleCamelRouteMockTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/learncamel/routes/HealthCheckRoute.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/learncamel/routes/HealthCheckRoute.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/learncamel/routes/RestCamelRoute.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/learncamel/routes/RestCamelRoute.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/rest-learncamel-spring-boot-0.0.1-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/rest-learncamel-spring-boot-0.0.1-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/rest-learncamel-spring-boot-0.0.1-SNAPSHOT.jar.original" beforeDir="false" afterPath="$PROJECT_DIR$/target/rest-learncamel-spring-boot-0.0.1-SNAPSHOT.jar.original" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/learncamel/routes/CountryRestRouteTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/learncamel/routes/CountryRestRouteTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/learncamel/routes/SimpleCamelRouteMockTest.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,6 +48,11 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="PREVIOUS_COMMIT_AUTHORS">
+      <list>
+        <option value="conradperes &lt;conrad.marques.peres@gmail.com&gt;" />
+      </list>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MavenImportPreferences">
@@ -292,7 +282,14 @@
       <option name="project" value="LOCAL" />
       <updated>1578164141778</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Correcting issues of Java 9">
+      <created>1578324642687</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1578324642691</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TodoView">
@@ -306,13 +303,14 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Correcting issues" />
-    <option name="LAST_COMMIT_MESSAGE" value="Correcting issues" />
+    <MESSAGE value="Correcting issues of Java 9" />
+    <option name="LAST_COMMIT_MESSAGE" value="Correcting issues of Java 9" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="1697" y="52" key="CommitChangelistDialog2" timestamp="1578324614498">
+    <state x="1697" y="52" key="CommitChangelistDialog2" timestamp="1578324640626">
       <screen x="1440" y="0" width="1440" height="900" />
     </state>
-    <state x="1697" y="52" key="CommitChangelistDialog2/1440.0.1440.900/0.0.1440.900@1440.0.1440.900" timestamp="1578324614498" />
+    <state x="1697" y="52" key="CommitChangelistDialog2/1440.0.1440.900/0.0.1440.900@1440.0.1440.900" timestamp="1578324640626" />
     <state width="1398" height="645" key="GridCell.Tab.0.bottom" timestamp="1578324321569">
       <screen x="1440" y="0" width="1440" height="900" />
     </state>
@@ -333,10 +331,10 @@
     </state>
     <state width="1398" height="645" key="GridCell.Tab.0.right/1440.0.1440.900/0.0.1440.900@1440.0.1440.900" timestamp="1578324321567" />
     <state width="1398" height="609" key="GridCell.Tab.0.right/1440.0.1440.900/0.23.1440.877@1440.0.1440.900" timestamp="1578241934912" />
-    <state x="1760" y="190" key="Vcs.Push.Dialog.v2" timestamp="1578164149735">
+    <state x="1760" y="190" key="Vcs.Push.Dialog.v2" timestamp="1578324881689">
       <screen x="1440" y="0" width="1440" height="900" />
     </state>
-    <state x="1760" y="190" key="Vcs.Push.Dialog.v2/1440.0.1440.900/0.0.1440.900@1440.0.1440.900" timestamp="1578164149735" />
+    <state x="1760" y="190" key="Vcs.Push.Dialog.v2/1440.0.1440.900/0.0.1440.900@1440.0.1440.900" timestamp="1578324881689" />
     <state x="1825" y="196" width="670" height="676" key="search.everywhere.popup" timestamp="1578241081693">
       <screen x="1440" y="0" width="1440" height="900" />
     </state>
